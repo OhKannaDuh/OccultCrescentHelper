@@ -13,6 +13,7 @@ using OccultCrescentHelper.Modules.WindowManager;
 using OccultCrescentHelper.Modules.StateManager;
 using OccultCrescentHelper.Modules.InstanceIdentifier;
 using OccultCrescentHelper.Modules.Automator;
+using OccultCrescentHelper.Modules.Buff;
 using OccultCrescentHelper.Modules.Mount;
 
 namespace OccultCrescentHelper;
@@ -27,6 +28,8 @@ public class Config : IOcelotConfig
     public CarrotsConfig CarrotsConfig { get; set; } = new();
 
     public CurrencyConfig CurrencyConfig { get; set; } = new();
+    
+    public BuffConfig BuffConfig { get; set; } = new();
 
     public EventDropConfig EventDropConfig { get; set; } = new();
 
