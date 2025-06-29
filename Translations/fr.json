@@ -14,12 +14,12 @@
       "stop": "Arrêter"
     },
     "tooltip": {
-      "illegal_mode_compatible": "Cette option est compatible avec le mode illégal, elle l'utilisera pendant son exécution."
+      "illegal_mode_compatible": "Option compatible avec le mode illégal, elle sera utilisée pendant son exécution."
     }
   },
   "modules": {
     "treasure": {
-      "title": "Configuration du Trésor",
+      "title": "Configuration des Coffres",
       "draw": {
         "bronze": {
           "label": "Tracer des lignes vers les coffres en bronze",
@@ -32,23 +32,23 @@
       },
       "hunt": {
         "show_button": {
-          "label": "Afficher le bouton de chasse au trésor"
+          "label": "Afficher le bouton de chasse au coffres"
         },
         "detection": {
           "label": "Portée de détection des coffres",
-          "tooltip": "La distance à laquelle vous devez être d'un nœud pour supposer qu'il n'est pas là.\nCela peut varier selon le moment où le serveur envoie l'instance GameObject.\nUne valeur inférieure sera plus fiable mais prolongera la chasse."
+          "tooltip": "La distance à laquelle vous devez être d'un coffre pour supposer qu'il n'est pas là.\nCela peut varier selon le moment où le serveur envoie l'instance GameObject.\nUne valeur inférieure sera plus fiable mais prolongera la chasse."
         },
         "max_level": {
           "label": "Niveau de zone max",
-          "tooltip": "Le niveau maximum des monstres près desquels vous êtes prêt à chasser le trésor."
+          "tooltip": "Le niveau maximum des monstres des zones où allez récupérer les coffres."
         }
       },
       "panel": {
-        "title": "Trésor",
-        "none": "Pas de trésor à proximité.",
+        "title": "Coffres",
+        "none": "Pas de coffre à proximité.",
         "hunt": {
-          "title": "Chasseur de trésors",
-          "distance": "Distance au prochain nœud",
+          "title": "Chasseur de coffres",
+          "distance": "Distance du prochain coffre",
           "count": "Nombre d'instances",
           "instance": {
             "current": "Chaîne actuelle",
@@ -71,45 +71,45 @@
       }
     },
     "currency": {
-      "title": "Configuration de la Monnaie",
+      "title": "Configuration des Pièces",
       "panel": {
-        "title": "Monnaie",
+        "title": "Pièces",
         "silver": {
-          "label": "Argent par heure"
+          "label": "Pièces d'argent par heure"
         },
         "gold": {
-          "label": "Or par heure"
+          "label": "Pièces d'or par heure"
         }
       }
     },
     "event_drop": {
-      "title": "Configuration des Drops d'Événement",
+      "title": "Configuration des Drops",
       "demiatma": {
-        "label": "Afficher les drops de Demiatma",
-        "tooltip": "Affiche les drops de Demiatma dans la liste active des ALÉA/EB."
+        "label": "Afficher les drops de Demi-âtma",
+        "tooltip": "Affiche les drops de Demi-âtma dans les Aléas/CC actifs."
       },
       "notes": {
-        "label": "Afficher les drops de Notes",
-        "tooltip": "Affiche les drops de Notes dans la liste active des ALÉA/EB."
+        "label": "Afficher les drops d'Article",
+        "tooltip": "Affiche les drops d'Article dans les Aléas/CC actifs."
       },
       "soulshards": {
-        "label": "Afficher les drops de Fragments d'âme",
-        "tooltip": "Affiche les drops de Fragments d'âme dans la liste active des EB."
+        "label": "Afficher les drops d'Éclat d'âme",
+        "tooltip": "Affiche les drops d'Éclat d'âme dans les confrontations critiques actives."
       }
     },
     "fates": {
-      "title": "Configuration des ALÉA",
+      "title": "Configuration des Aléas",
       "panel": {
-        "title": "ALÉA",
-        "none": "Pas d'ALÉA actifs.",
+        "title": "Aléas",
+        "none": "Pas d'Aléa actifs.",
         "estimated": "Estimé"
       }
     },
     "critical_encounters": {
-      "title": "Configuration des Rencontres Critiques",
+      "title": "Configuration des Confrontations Critiques",
       "panel": {
-        "title": "Rencontres Critiques",
-        "none": "Pas de rencontres critiques actives.",
+        "title": "Confrontations Critiques",
+        "none": "Pas de confrontations critiques actives.",
         "register": "Préparation",
         "warmup": "Démarrage",
         "estimated": "Estimé"
@@ -125,61 +125,61 @@
       }
     },
     "teleporter": {
-      "title": "Configuration du Téléporteur",
+      "title": "Configuration des Téléportations",
       "should_mount": {
-        "label": "Monter après la téléportation",
-        "tooltip": "La monture à utiliser après la téléportation."
+        "label": "Monter sur sa monture après la téléportation",
+        "tooltip": "Monte sur votre monture automatiquement après une téléportation."
       },
       "path_to_destination": {
-        "label": "Chemin vers l'événement après la téléportation",
-        "tooltip": "Utilise vnavmesh pour se diriger vers l'événement suivant après la téléportation via le panneau OCH."
+        "label": "Se diriger vers l'événement après la téléportation",
+        "tooltip": "Utilise vnavmesh pour se diriger vers l'événement suivant après la téléportation via le panel BOCCHI."
       },
       "return_after_fate": {
-        "label": "Retourner à la base après l'ALÉA",
-        "tooltip": "Utilise le Retour Occulte après avoir terminé un ALÉA pour retourner au camp de base."
+        "label": "Retourner à la base après l'aléa",
+        "tooltip": "Utilise le Demi-rapatriement après avoir terminé un aléa pour retourner au camp de base."
       },
       "return_after_critical": {
-        "label": "Retourner à la base après une rencontre critique",
-        "tooltip": "Utilise le Retour Occulte après avoir terminé une rencontre critique pour retourner au camp de base."
+        "label": "Retourner à la base après une confrontation critique",
+        "tooltip": "Utilise le Demi-rapatriement après avoir terminé une confrontation critique pour retourner au camp de base."
       },
       "approach_aetheryte": {
-        "label": "Approcher l'éthérite après le retour",
-        "tooltip": "Marcher jusqu'à l'éthérite après le retour au camp de base.\n* Ne fonctionne que lors du retour via le plugin après un ALÉA ou une rencontre critique."
+        "label": "S'approcher de l'éthérite après le rapatriement",
+        "tooltip": "Marche jusqu'à l'éthérite après le retour au camp de base.\n* Ne fonctionne que lors du retour via le plugin après un aléa ou une confrontation critique."
       }
     },
     "window_manager": {
       "title": "Configuration du Gestionnaire de Fenêtres",
       "main_on_load": {
         "label": "Ouvrir l'interface principale au chargement",
-        "tooltip": "Ouvre l'interface utilisateur principale lorsque le plugin est chargé."
+        "tooltip": "Ouvre l'interface de configuration après le chargement du plugin."
       },
       "main_on_enter": {
         "label": "Ouvrir l'interface principale en entrant",
-        "tooltip": "Ouvre l'interface utilisateur principale lorsque vous entrez dans une zone du Croissant Occulte."
+        "tooltip": "Ouvre l'interface principale lorsque vous entrez dans le Croissant Occulte."
       },
       "main_on_exit": {
         "label": "Fermer l'interface principale en quittant",
-        "tooltip": "Ferme l'interface utilisateur principale lorsque vous quittez une zone du Croissant Occulte."
+        "tooltip": "Ferme l'interface principale lorsque vous quittez le Croissant Occulte."
       },
       "main_in_combat": {
         "label": "Fermer l'interface principale en combat",
-        "tooltip": "Ferme l'interface utilisateur principale lorsque vous entrez en combat."
+        "tooltip": "Ferme l'interface principale lorsque vous entrez en combat."
       },
       "config_on_load": {
         "label": "Ouvrir l'interface de configuration au chargement",
-        "tooltip": "Ouvre l'interface utilisateur de configuration lorsque le plugin est chargé."
+        "tooltip": "Ouvre l'interface de configuration après le chargement du plugin."
       },
       "config_on_enter": {
         "label": "Ouvrir l'interface de configuration en entrant",
-        "tooltip": "Ouvre l'interface utilisateur de configuration lorsque vous entrez dans une zone du Croissant Occulte."
+        "tooltip": "Ouvre l'interface de configuration lorsque vous entrez dans le Croissant Occulte."
       },
       "config_on_exit": {
         "label": "Fermer l'interface de configuration en quittant",
-        "tooltip": "Ferme l'interface utilisateur de configuration lorsque vous quittez une zone du Croissant Occulte."
+        "tooltip": "Ferme l'interface de configuration lorsque vous quittez le Croissant Occulte."
       },
       "config_in_combat": {
         "label": "Fermer l'interface de configuration en combat",
-        "tooltip": "Ferme l'interface utilisateur de configuration lorsque vous entrez en combat."
+        "tooltip": "Ferme l'interface de configuration lorsque vous entrez en combat."
       }
     },
     "state_manager": {
@@ -199,7 +199,7 @@
       "title": "Configuration de l'Identifiant d'Instance",
       "show": {
         "label": "Afficher",
-        "tooltip": "Ceci est capturé lorsque la zone s'initialise, et sera inconnu si le plugin est activé ou rechargé pendant que vous êtes dans la zone."
+        "tooltip": "Capturé lorsque la zone s'initialise, il sera inconnu si le plugin est activé ou rechargé dans la zone."
       },
       "panel": {
         "id": {
@@ -208,153 +208,153 @@
       }
     },
     "automator": {
-      "title": "Mode Illégal",
+      "title": "Configuration du mode Illégal",
       "enabled": {
-        "tooltip": "Le mode illégal est un bot, ses actions ne sont pas dictées par votre configuration en dehors de cette section."
+        "tooltip": "Le mode illégal est un bot, certaines configurations, en dehors de cet onglet, seront ignorées"
       },
       "ai_provider": {
-        "label": "Fournisseur d'IA",
-        "tooltip": "Le fournisseur d'IA mécanique que vous utilisez"
+        "label": "Plugin d'IA",
+        "tooltip": "Le plugin que vous utilisez pour gérer les combats."
       },
       "toggle_ai_provider": {
-        "label": "Activer/Désactiver le fournisseur d'IA",
-        "tooltip": "Activer le fournisseur d'IA au démarrage des ALÉA/EB\nDésactiver le fournisseur d'IA lors de la navigation vers les ALÉA/EB"
+        "label": "Activer/Désactiver le plugin d'IA",
+        "tooltip": "Active le plugin d'IA au démarrage des Aléa/CC\nDésactive le plugin d'IA lors de la navigation vers les Aléa/CC"
       },
       "force_target": {
         "label": "Forcer la cible",
-        "tooltip": "Assurez-vous de toujours maintenir une cible dans les ALÉA et les rencontres critiques."
+        "tooltip": "Maintient toujours une cible dans les aléas et les confrontations critiques."
       },
       "force_target_central_enemy": {
         "label": "Prioriser l'ennemi le plus central",
-        "tooltip": "Essayer de cibler l'ennemi au milieu du groupe."
+        "tooltip": "Essaye de cibler l'ennemi au centre du groupe."
       },
       "engagement_range": {
         "label": "Portée d'engagement",
-        "tooltip": "La portée à laquelle se trouver d'un monstre d'ALÉA avant de descendre de monture et de laisser votre rotation/plugin d'IA prendre le relais"
+        "tooltip": "Portée à laquelle se trouver d'un monstre d'aléa avant de descendre de monture et de laisser votre rotation/plugin d'IA prendre le relais"
       },
       "do_critical_encounters": {
-        "label": "Faire les Rencontres Critiques",
-        "tooltip": "Devrait considérer les rencontres critiques lors du choix d'une activité"
+        "label": "Faire les Confrontations Critiques",
+        "tooltip": "Considère les confrontations critiques lors du choix d'une activité"
       },
       "delay_critical_encounters": {
-        "label": "Délai avant de se diriger vers une rencontre critique",
-        "tooltip": "Ajoute un délai de 10 à 15 secondes avant de se diriger vers une rencontre critique"
+        "label": "Délai avant de se diriger vers une confrontation critique",
+        "tooltip": "Ajoute un délai de 10 à 15 secondes avant de se diriger vers une confrontation critique"
       },
       "ce_scourge_of_the_mind": {
-        "label": "RC : Fléau de l'esprit",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Fléau de l'esprit'."
+        "label": "CC : L'encéphalophage",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'L'encéphalophage'."
       },
       "ce_the_black_regiment": {
-        "label": "RC : Le Régiment Noir",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Le Régiment Noir'."
+        "label": "CC : Plumes d'encre",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Plumes d'encre'."
       },
       "ce_the_unbridled": {
-        "label": "RC : Les Indomptables",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Les Indomptables'."
+        "label": "CC : Le rageux",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Le rageux'."
       },
       "ce_crawling_death": {
-        "label": "RC : Mort rampante",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Mort rampante'."
+        "label": "CC : Face de griffes",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Face de griffes'."
       },
       "ce_calamity_bound": {
-        "label": "RC : Lié au désastre",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Lié au désastre'."
+        "label": "CC : Cloître à perpétuité",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Cloître à perpétuité'."
       },
       "ce_trial_by_claw": {
-        "label": "RC : Épreuve par la Griffe",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Épreuve par la Griffe'."
+        "label": "CC : Écailles de cristal",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Écailles de cristal'."
       },
       "ce_from_times_bygone": {
-        "label": "RC : Des temps révolus",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Des temps révolus'."
+        "label": "CC : Idole surprise",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Idole surprise'."
       },
       "ce_company_of_stone": {
-        "label": "RC : Compagnie de Pierre",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Compagnie de Pierre'."
+        "label": "CC : L'armée des argileux",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'L'armée des argileux'."
       },
       "ce_shark_attack": {
-        "label": "RC : Attaque de requin",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Attaque de requin'."
+        "label": "CC : Homo selachus",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Homo selachus'."
       },
       "ce_on_the_hunt": {
-        "label": "RC : En chasse",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'En chasse'."
+        "label": "CC : À rugir debout",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'À rugir debout'."
       },
       "ce_with_extreme_prejudice": {
-        "label": "RC : Avec une extrême rigueur",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Avec une extrême rigueur'."
+        "label": "CC : Cordon de sécurité",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Cordon de sécurité'."
       },
       "ce_noise_complaint": {
-        "label": "RC : Plainte pour tapage",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Plainte pour tapage'."
+        "label": "CC : Mammouth fâché",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Mammouth fâché'."
       },
       "ce_cursed_concern": {
-        "label": "RC : Préoccupation maudite",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Préoccupation maudite'."
+        "label": "CC : Être aux pièces",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Être aux pièces'."
       },
       "ce_eternal_watch": {
-        "label": "RC : Veille éternelle",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Veille éternelle'."
+        "label": "CC : Comme un lion nouveau",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Comme un lion nouveau'."
       },
       "ce_flame_of_dusk": {
-        "label": "RC : Flamme du Crépuscule",
-        "tooltip": "Active/Désactive la participation à la rencontre critique 'Flamme du Crépuscule'."
+        "label": "CC : Les ailes de pierre",
+        "tooltip": "Active/Désactive la participation à la confrontation critique 'Les ailes de pierre'."
       },
       "do_fates": {
-        "label": "Faire les ALÉA",
-        "tooltip": "Devrait considérer les ALÉA lors du choix d'une activité"
+        "label": "Faire les Aléas",
+        "tooltip": "Considère les Aléas lors du choix d'une activité"
       },
       "fate_rough_waters": {
-        "label": "ALÉA : Eaux agitées",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Eaux agitées'."
+        "label": "Aléa : Pas de vagues",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Pas de vagues'."
       },
       "fate_the_golden_guardian": {
-        "label": "ALÉA : Le gardien doré",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Le gardien doré'."
+        "label": "Aléa : Tombe vingt-quatre carats",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Tombe vingt-quatre carats'."
       },
       "fate_king_of_the_crescent": {
-        "label": "ALÉA : Roi du Croissant",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Roi du Croissant'."
+        "label": "Aléa : La bête sadique",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'La bête sadique'."
       },
       "fate_the_winged_terror": {
-        "label": "ALÉA : La terreur ailée",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'La terreur ailée'."
+        "label": "Aléa : Je fus zu",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Je fus zu'."
       },
       "fate_an_unending_duty": {
-        "label": "ALÉA : Un devoir sans fin",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Un devoir sans fin'."
+        "label": "Aléa : Pierre de tonnerre",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Pierre de tonnerre'."
       },
       "fate_brain_drain": {
-        "label": "ALÉA : Saignée de cerveau",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Saignée de cerveau'."
+        "label": "Aléa : Le poison de l'évolution",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Le poison de l'évolution'."
       },
       "fate_a_delicate_balance": {
-        "label": "ALÉA : Un équilibre délicat",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Un équilibre délicat'."
+        "label": "Aléa : Humidité zéro",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Humidité zéro'."
       },
       "fate_sworn_to_soil": {
-        "label": "ALÉA : Lié à la terre",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Lié à la terre'."
+        "label": "Aléa : Rester de boue",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Rester de boue'."
       },
       "fate_a_prying_eye": {
-        "label": "ALÉA : Un œil indiscret",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Un œil indiscret'."
+        "label": "Aléa : Un œil sur l'île",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Un œil sur l'île'."
       },
       "fate_fatal_allure": {
-        "label": "ALÉA : Attrait fatal",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Attrait fatal'."
+        "label": "Aléa : La belle mort",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'La belle mort'."
       },
       "fate_serving_darkness": {
-        "label": "ALÉA : Servir les ténèbres",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Servir les ténèbres'."
+        "label": "Aléa : Collecte mortelle",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Collecte mortelle'."
       },
       "fate_persistent_pots": {
-        "label": "ALÉA : Pots persistants",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Pots persistants'."
+        "label": "Aléa : Pas de pot pour les pots",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Pas de pot pour les pots'."
       },
       "fate_pleading_pots": {
-        "label": "ALÉA : Pots suppliants",
-        "tooltip": "Active/Désactive la participation à l'ALÉA 'Pots suppliants'."
+        "label": "Aléa : Mauvais œil pour les pots",
+        "tooltip": "Active/Désactive la participation à l'Aléa 'Mauvais œil pour les pots'."
       },
       "panel": {
         "title": "Mode Illégal",
@@ -363,8 +363,8 @@
           "none": "Aucune"
         },
         "activity_state": {
-          "label": "État de l'activité",
-          "none": "En attente d'activité"
+          "label": "État",
+          "none": "En attente"
         }
       }
     },
@@ -376,37 +376,37 @@
       },
       "maintain": {
         "label": "Rester monté hors combat.",
-        "tooltip": "En état d'inactivité, cela vous forcera à être monté."
+        "tooltip": "Vous serez toujours sur une monture, même en cas d'inactivité."
       },
       "roulette": {
-        "label": "Utiliser la roulette de montures",
-        "tooltip": "Outrepasse la monture configurée et utilise la roulette à la place"
+        "label": "Monture aléatoire",
+        "tooltip": "Utilise une monture aléatoire à la place de la monture configurée."
       }
     },
     "buff": {
       "config": {
         "title": "Configuration des Buffs",
         "romeos_ballad": {
-          "label": "Appliquer la Ballade de Roméo",
-          "tooltip": "Applique le Buff du Barde Fantôme, la Ballade de Roméo"
+          "label": "Appliquer Lied arrêté",
+          "tooltip": "Applique le Buff du Barde Fantôme, Lied arrêté"
         },
         "enduring_fortitude": {
-          "label": "Appliquer la Force Durable",
-          "tooltip": "Applique le Buff du Chevalier Fantôme, la Force Durable"
+          "label": "Appliquer Prière protectrice",
+          "tooltip": "Applique le Buff du Chevalier Fantôme : Prière protectrice"
         },
         "fleetfooted": {
-          "label": "Appliquer Pied léger",
-          "tooltip": "Applique le Buff du Moine Fantôme, Pied léger"
+          "label": "Appliquer Posture athlétique",
+          "tooltip": "Applique le Buff du Moine Fantôme : Posture athlétique"
         },
         "threshold": {
           "label": "Seuil de réapplication",
-          "tooltip": "Le nombre de minutes restantes sur le buff le plus bas pour les rafraîchir tous lors de l'exécution automatique."
+          "tooltip": "Nombre de minutes restantes sur le buff le plus bas avant de les rafraîchir automatiquement."
         }
       },
       "panel": {
         "title": "Buffs",
         "button": {
-          "tooltip": "Passez à chaque job de fantôme de buff activé et utilisez leur compétence de buff, puis revenez à votre job de fantôme d'origine."
+          "tooltip": "Applique l'ensemble des buffs fantôme, puis retourne sur votre job."
         }
       }
     }
