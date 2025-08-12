@@ -1,0 +1,17 @@
+{
+  "modules": {
+    "mount": {
+      "config": {
+        "title": "坐骑设置",
+        "mount": {
+          "label": "坐骑",
+          "tooltip": "选择要使用的坐骑"
+        },
+        "mount_roulette": {
+          "label": "使用随机坐骑",
+          "tooltip": "忽略已设置的坐骑，改为使用随机坐骑"
+        }
+      }
+    }
+  }
+}

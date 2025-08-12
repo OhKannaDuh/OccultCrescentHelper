@@ -1,0 +1,26 @@
+{
+  "modules": {
+    "pathfinder": {
+      "config": {
+        "title": "路径规划设置",
+        "text": "此设置与寻宝或寻找胡萝卜功能相关\n成本将与路径的总距离（以米为单位）进行比较",
+        "return_cost": {
+          "label": "返回家园的成本",
+          "tooltip": "设置使用亚返回返回家园时的成本"
+        },
+        "teleport_cost": {
+          "label": "传送网络的成本",
+          "tooltip": "设置使用传送网络前往其他地点时的成本"
+        },
+        "detection_range": {
+          "label": "对象检测范围",
+          "tooltip": "被视为不存在节点所需的距离\n此值可能会因服务器发送GameObject实例的时间而有所不同\n较小的值会提高可靠性，但会增加探索时间"
+        },
+        "max_level": {
+          "label": "最大区域等级",
+          "tooltip": "将探索范围限制在该等级以下的怪物所在位置"
+        }
+      }
+    }
+  }
+}

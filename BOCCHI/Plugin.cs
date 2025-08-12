@@ -52,6 +52,9 @@ public sealed class Plugin : OcelotPlugin
         I18N.LoadAllFromDirectory("en", "Translations/en");
         I18N.LoadAllFromDirectory("jp", "Translations/jp");
         I18N.LoadAllFromDirectory("fr", "Translations/fr");
+#if DALAMUD_CN
+        I18N.LoadAllFromDirectory("zh", "Translations/zh");
+#endif
 
         // @todo: Breakup German and uwu translation
         I18N.LoadFromFile("de", "Translations/de.json");
@@ -62,6 +65,9 @@ public sealed class Plugin : OcelotPlugin
             ClientLanguage.French => "fr",
             ClientLanguage.German => "de",
             ClientLanguage.Japanese => "jp",
+#if DALAMUD_CN
+            ClientLanguage.ChineseSimplified => "zh",
+#endif
             _ => "en",
         };
 

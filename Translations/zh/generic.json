@@ -1,0 +1,13 @@
+{
+  "generic": {
+    "label": {
+      "enabled": "启用",
+      "start": "开始",
+      "stop": "停止",
+      "not_in_zone": "当前位于新月岛区域外"
+    },
+    "tooltip": {
+      "illegal_mode_compatible": "此选项与非法模式兼容，运行时将使用它。"
+    }
+  }
+}

@@ -13,6 +13,9 @@
     <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
         <DefineConstants>DEBUG;TRACE;DEBUG_BUILD</DefineConstants>
     </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Release_CN'">
+        <DefineConstants>RELEASE;TRACE;DALAMUD_CN</DefineConstants>
+    </PropertyGroup>
     <!-- Files -->
     <ItemGroup>
         <Content Include="..\assets\icon.png">

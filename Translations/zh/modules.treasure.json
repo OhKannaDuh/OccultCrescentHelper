@@ -1,0 +1,42 @@
+{
+  "modules": {
+    "treasure": {
+      "config": {
+        "title": "宝箱设置",
+        "draw_line_to_bronze_chests": {
+          "label": "绘制青铜宝箱指引线",
+          "tooltip": "非战斗状态下，从角色位置向附近的青铜宝箱绘制指引线"
+        },
+        "draw_line_to_silver_chests": {
+          "label": "绘制白银宝箱指引线",
+          "tooltip": "非战斗状态下，从角色位置向附近的白银宝箱绘制指引线"
+        },
+        "show_hunt_button": {
+          "label": "显示宝藏搜索按钮"
+        },
+        "cast_treasure_sight_upon_return": {
+          "label": "返回时使用魔寻宝",
+          "tooltip": "在返回到起点时自动使用魔寻宝技能"
+        },
+        "show_percentage_active_treasure_count": {
+          "label": "以百分比显示宝箱",
+          "tooltip": "在总数量旁显示当前宝箱的百分比"
+        }
+      },
+      "panel": {
+        "title": "宝箱",
+        "none": "附近没有宝箱。",
+        "hunt": {
+          "title": "宝箱猎人",
+          "distance_node": "距下一个宝箱的距离"
+        },
+        "active_bronze": {
+          "label": "青铜宝箱"
+        },
+        "active_silver": {
+          "label": "白银宝箱"
+        }
+      }
+    }
+  }
+}

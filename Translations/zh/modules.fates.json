@@ -1,0 +1,46 @@
+{
+  "modules": {
+    "fates": {
+      "config": {
+        "title": "FATE设置",
+        "log_spawn": {
+          "label": "出现/消失时输出聊天信息",
+          "tooltip": "当FATE出现或消失时发送提示消息"
+        },
+        "alert_all": {
+          "label": "所有FATE出现时通知",
+          "tooltip": "当任何FATE出现时播放提示音"
+        },
+        "alert_azurite": {
+          "label": "通知蓝色半魂晶的FATE",
+          "tooltip": "当掉落蓝色半魂晶的FATE出现时播放提示音"
+        },
+        "alert_verdigris": {
+          "label": "通知绿色半魂晶的FATE",
+          "tooltip": "当掉落绿色半魂晶的FATE出现时播放提示音"
+        },
+        "alert_malachite": {
+          "label": "通知青色半魂晶的FATE",
+          "tooltip": "当掉落青色半魂晶的FATE出现时播放提示音"
+        },
+        "alert_realgar": {
+          "label": "通知红色半魂晶的FATE",
+          "tooltip": "当掉落红色半魂晶的FATE出现时播放提示音"
+        },
+        "alert_caput_mortuum": {
+          "label": "通知紫色半魂晶的FATE",
+          "tooltip": "当掉落紫色半魂晶的FATE出现时播放提示音"
+        },
+        "alert_orpiment": {
+          "label": "通知黄色半魂晶的FATE",
+          "tooltip": "当掉落黄色半魂晶的FATE出现时播放提示音"
+        }
+      },
+      "panel": {
+        "title": "FATE",
+        "none": "当前无活跃的FATE",
+        "estimated": "预计"
+      }
+    }
+  }
+}

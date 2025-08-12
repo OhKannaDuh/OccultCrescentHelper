@@ -1,0 +1,64 @@
+{
+  "modules": {
+    "critical_encounters": {
+      "config": {
+        "title": "CE设置",
+        "track_forked_tower": {
+          "label": "追踪两歧塔",
+          "tooltip": "记录两歧塔最后结束的时间"
+        },
+        "log_spawn": {
+          "label": "CE出现/消失时输出聊天信息",
+          "tooltip": "当CE出现或消失时，在聊天窗口输出一条消息"
+        },
+        "alert_all": {
+          "label": "CE出现时通知",
+          "tooltip": "当任何CE出现时播放提示音"
+        },
+        "alert_azurite": {
+          "label": "通知蓝色半魂晶的CE",
+          "tooltip": "当掉落蓝色半魂晶的CE出现时播放提示音"
+        },
+        "alert_verdigris": {
+          "label": "通知绿色半魂晶的CE",
+          "tooltip": "当掉落绿色半魂晶的CE出现时播放提示音"
+        },
+        "alert_malachite": {
+          "label": "通知青色半魂晶的CE",
+          "tooltip": "当掉落青色半魂晶的CE出现时播放提示音"
+        },
+        "alert_realgar": {
+          "label": "通知红色半魂晶的CE",
+          "tooltip": "当掉落红色半魂晶的CE出现时播放提示音"
+        },
+        "alert_caput_mortuum": {
+          "label": "通知紫色半魂晶的CE",
+          "tooltip": "当掉落紫色半魂晶的CE出现时播放提示音"
+        },
+        "alert_orpiment": {
+          "label": "通知黄色半魂晶的CE",
+          "tooltip": "当掉落黄色半魂晶的CE出现时播放提示音"
+        },
+        "alert_oracle": {
+          "label": "通知掉落灵魂碎晶：预言家的CE",
+          "tooltip": "当掉落灵魂碎晶：预言家的CE出现时播放提示音"
+        },
+        "alert_berserker": {
+          "label": "通知掉落灵魂碎晶：狂战士的CE",
+          "tooltip": "当掉落灵魂碎晶：狂战士的CE出现时播放提示音"
+        },
+        "alert_ranger": {
+          "label": "通知掉落灵魂碎晶：猎人的CE",
+          "tooltip": "当掉落灵魂碎晶：猎人的CE出现时播放提示音"
+        }
+      },
+      "panel": {
+        "title": "紧急遭遇战",
+        "none": "当前无活跃的CE",
+        "register": "准备中",
+        "warmup": "开始中",
+        "estimated": "预计"
+      }
+    }
+  }
+}

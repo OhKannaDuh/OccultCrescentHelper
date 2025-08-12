@@ -1,0 +1,41 @@
+{
+  "modules": {
+    "window_manager": {
+      "config": {
+        "title": "窗口管理设置",
+        "open_main_on_start_up": {
+          "label": "加载时开启主界面",
+          "tooltip": "插件加载时自动打开主界面"
+        },
+        "open_main_on_enter": {
+          "label": "进入区域时开启主界面",
+          "tooltip": "进入新月岛区域时自动打开主界面"
+        },
+        "close_main_on_exit": {
+          "label": "离开区域时关闭主界面",
+          "tooltip": "离开新月岛区域时自动关闭主界面"
+        },
+        "hide_main_in_combat": {
+          "label": "战斗中关闭主界面",
+          "tooltip": "进入战斗状态时自动关闭主界面"
+        },
+        "open_config_on_start_up": {
+          "label": "加载时开启设置界面",
+          "tooltip": "插件加载时自动打开设置界面"
+        },
+        "open_config_on_enter": {
+          "label": "进入区域时开启设置界面",
+          "tooltip": "进入新月岛区域时自动打开设置界面"
+        },
+        "close_config_on_exit": {
+          "label": "离开区域时关闭设置界面",
+          "tooltip": "离开新月岛区域时自动关闭设置界面"
+        },
+        "hide_config_in_combat": {
+          "label": "战斗中关闭设置界面",
+          "tooltip": "进入战斗状态时自动关闭设置界面"
+        }
+      }
+    }
+  }
+}

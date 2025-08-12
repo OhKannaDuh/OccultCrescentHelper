@@ -1,0 +1,21 @@
+{
+  "modules": {
+    "event_drop": {
+      "config": {
+        "title": "事件掉落设置",
+        "show_demiatma_drops": {
+          "label": "显示半魂晶掉落",
+          "tooltip": "在FATE/CE列表中显示半魂晶掉落"
+        },
+        "show_note_drops": {
+          "label": "显示笔记掉落",
+          "tooltip": "在FATE/CE列表中显示调查记录掉落"
+        },
+        "show_soul_shard_drops": {
+          "label": "显示灵魂碎晶掉落",
+          "tooltip": "在CE列表中显示灵魂碎晶掉落"
+        }
+      }
+    }
+  }
+}

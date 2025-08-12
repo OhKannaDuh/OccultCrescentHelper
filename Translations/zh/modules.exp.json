@@ -1,0 +1,15 @@
+{
+  "modules": {
+    "exp": {
+      "config": {
+        "title": "经验值设置"
+      },
+      "panel": {
+        "title": "经验值",
+        "exp": {
+          "label": "每小时经验值"
+        }
+      }
+    }
+  }
+}

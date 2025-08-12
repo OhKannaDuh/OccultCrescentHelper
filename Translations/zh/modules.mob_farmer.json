@@ -1,0 +1,57 @@
+{
+  "modules": {
+    "mob_farmer": {
+      "config": {
+        "title": "刷怪设置",
+        "mobs": {
+          "label": "目标怪物",
+          "tooltip": "需要击杀的怪物列表"
+        },
+        "consider_special_mobs": {
+          "label": "包含特殊怪物",
+          "tooltip": "将特定时间/天气出现的特殊怪物纳入拉怪目标和计数范围"
+        },
+        "max_mob_level": {
+          "label": "怪物最大等级",
+          "tooltip": "拉怪时的最高等级限制，用于处理特殊怪物或等级差"
+        },
+        "max_euclidean_distance": {
+          "label": "最大直线距离",
+          "tooltip": "拉怪的最大直线距离，避免因特殊怪物导致角色移动至远处"
+        },
+        "min_euclidean_distance_to_return_home": {
+          "label": "返回起始点的距离",
+          "tooltip": "战斗结束后，与起始点超过此距离时将自动返回"
+        },
+        "return_to_start_in_waiting_phase": {
+          "label": "战斗后返回起始点",
+          "tooltip": "起始点为按下「开始」按钮时的位置"
+        },
+        "render_debug_lines": {
+          "label": "显示调试线",
+          "tooltip": "非战斗怪物显示红线，战斗中怪物显示绿线"
+        },
+        "render_debug_lines_while_not_running": {
+          "label": "未运行时显示调试线",
+          "tooltip": "未运行时仍显示调试线"
+        },
+        "apply_battle_bell": {
+          "label": "使用战斗之铃",
+          "tooltip": "在拉怪前使用战斗之铃"
+        },
+        "maximum_battle_bell_wait_time": {
+          "label": "战斗之铃最大等待时间",
+          "tooltip": "等待战斗之铃冷却结束的最长时间"
+        },
+        "minimum_mobs_to_start_loop": {
+          "label": "启动循环所需怪物数",
+          "tooltip": "附近需要有多少有效怪物才能启动循环"
+        },
+        "minimum_mobs_to_start_fight": {
+          "label": "开始战斗所需怪物数",
+          "tooltip": "停止拉怪开始战斗前需要聚集的怪物数量\n若无更多非战斗怪物，将无视条件直接开始战斗"
+        }
+      }
+    }
+  }
+}

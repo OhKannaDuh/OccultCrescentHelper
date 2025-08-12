@@ -1,0 +1,31 @@
+﻿{
+  "modules": {
+    "buff": {
+      "config": {
+        "title": "Buff设置",
+        "apply_romeos_ballad": {
+          "label": "使用爱之歌",
+          "tooltip": "使用辅助职业吟游诗人的Buff「爱之歌」"
+        },
+        "apply_enduring_fortitude": {
+          "label": "使用祈祷",
+          "tooltip": "使用辅助职业骑士的Buff「祈祷」"
+        },
+        "apply_fleetfooted": {
+          "label": "使用架招",
+          "tooltip": "使用辅助职业武僧的Buff「架招」"
+        },
+        "reapply_threshold": {
+          "label": "重新使用阈值",
+          "tooltip": "在自动执行期间如果Buff时长低于此时间，将会更新Buff"
+        }
+      },
+      "panel": {
+        "title": "Buff",
+        "button": {
+          "tooltip": "切换到启用的每个Buff的辅助职业，使用Buff技能，然后切换回原来的辅助职业。"
+        }
+      }
+    }
+  }
+}

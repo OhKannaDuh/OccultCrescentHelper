@@ -1,0 +1,174 @@
+{
+  "modules": {
+    "automator": {
+      "config": {
+        "title": "非法模式",
+        "enabled": {
+          "tooltip": "非法模式属于自动化程序，其行为仅由此部分配置决定，不受外部设置影响"
+        },
+        "ai_provider": {
+          "label": "AI选择",
+          "tooltip": "选择所使用的AI插件"
+        },
+        "toggle_ai_provider": {
+          "label": "自动切换AI状态",
+          "tooltip": "开始FATE/CE时开启AI\n前往FATE/CE的路上关闭AI"
+        },
+        "force_target": {
+          "label": "强制选中目标",
+          "tooltip": "在FATE和CE中始终保持目标选中"
+        },
+        "force_target_central_enemy": {
+          "label": "优先选中中心敌人",
+          "tooltip": "优先选中群怪中心位置的敌人"
+        },
+        "engagement_range": {
+          "label": "接战距离",
+          "tooltip": "距离FATE怪物多远时下坐骑并启动循环/AI插件"
+        },
+        "do_critical_encounters": {
+          "label": "参加CE",
+          "tooltip": "选择运行时是否考虑参加CE"
+        },
+        "delay_critical_encounters": {
+          "label": "延迟前往CE",
+          "tooltip": "前往CE前添加10-15秒延迟"
+        },
+        "do_scourge_of_the_mind": {
+          "label": "CE: 脑髓爱好者——夺心魔",
+          "tooltip": "选择是否参加CE “脑髓爱好者——夺心魔”"
+        },
+        "do_the_black_regiment": {
+          "label": "CE: 黑色连队",
+          "tooltip": "选择是否参加CE “黑色连队”"
+        },
+        "do_the_unbridled": {
+          "label": "CE: 愤怒的人造人——新月狂战士",
+          "tooltip": "选择是否参加CE “愤怒的人造人——新月狂战士”"
+        },
+        "do_crawling_death": {
+          "label": "CE: 潜影撕裂者——死亡爪",
+          "tooltip": "选择是否参加CE “潜影撕裂者——死亡爪”"
+        },
+        "do_calamity_bound": {
+          "label": "CE: 挣脱封印的大妖异——回廊恶魔",
+          "tooltip": "选择是否参加CE “挣脱封印的大妖异——回廊恶魔”"
+        },
+        "do_trial_by_claw": {
+          "label": "CE: 拟造使魔——水晶龙",
+          "tooltip": "选择是否参加CE “拟造使魔——水晶龙”"
+        },
+        "do_from_times_bygone": {
+          "label": "CE: 双极的造物——神秘土偶",
+          "tooltip": "选择是否参加CE “双极的造物——神秘土偶”"
+        },
+        "do_company_of_stone": {
+          "label": "CE: 石制骑士团",
+          "tooltip": "选择是否参加CE “石制骑士团”"
+        },
+        "do_shark_attack": {
+          "label": "CE: 传说中的鲨鱼——尼姆瓣齿鲨",
+          "tooltip": "选择是否参加CE “传说中的鲨鱼——尼姆瓣齿鲨”"
+        },
+        "do_on_the_hunt": {
+          "label": "CE: 双足狮人——跃立狮",
+          "tooltip": "选择是否参加CE “双足狮人——跃立狮”"
+        },
+        "do_with_extreme_prejudice": {
+          "label": "CE: 防卫指令",
+          "tooltip": "选择是否参加CE “防卫指令”"
+        },
+        "do_noise_complaint": {
+          "label": "CE: 厌鸟巨兽——进化加鲁拉",
+          "tooltip": "选择是否参加CE “厌鸟巨兽——进化加鲁拉”"
+        },
+        "do_cursed_concern": {
+          "label": "CE: 贩卖诅咒的商贩——金钱龟",
+          "tooltip": "选择是否参加CE “贩卖诅咒的商贩——金钱龟”"
+        },
+        "do_eternal_watch": {
+          "label": "CE: 城塞守卫——复原狮像",
+          "tooltip": "选择是否参加CE “城塞守卫——复原狮像”"
+        },
+        "do_flame_of_dusk": {
+          "label": "CE: 昏暗妖魂——鬼火苗",
+          "tooltip": "选择是否参加CE “昏暗妖魂——鬼火苗”"
+        },
+        "do_fates": {
+          "label": "参加FATE",
+          "tooltip": "选择运行时是否考虑参加FATE"
+        },
+        "do_rough_waters": {
+          "label": "FATE: 涌潮海魔————纳木",
+          "tooltip": "选择是否参加FATE “涌潮海魔————纳木”"
+        },
+        "do_the_golden_guardian": {
+          "label": "FATE: 古代怪石——金色石碑",
+          "tooltip": "选择是否参加FATE “古代怪石——金色石碑”"
+        },
+        "do_king_of_the_crescent": {
+          "label": "FATE: 悲鸣收集者——罗普罗斯",
+          "tooltip": "选择是否参加FATE “悲鸣收集者——罗普罗斯”"
+        },
+        "do_the_winged_terror": {
+          "label": "FATE: 甲板清扫者——巨大鸟",
+          "tooltip": "选择是否参加FATE “甲板清扫者——巨大鸟”"
+        },
+        "do_an_unending_duty": {
+          "label": "FATE: 神罚石兽——西西弗斯",
+          "tooltip": "选择是否参加FATE “神罚石兽——西西弗斯”"
+        },
+        "do_brain_drain": {
+          "label": "FATE: 进化的毒鸟——高等魔鸟",
+          "tooltip": "选择是否参加FATE “进化的毒鸟——高等魔鸟”"
+        },
+        "do_a_delicate_balance": {
+          "label": "FATE: 湿度猎手——除湿之火",
+          "tooltip": "选择是否参加FATE “湿度猎手——除湿之火”"
+        },
+        "do_sworn_to_soil": {
+          "label": "FATE: 土壤守护者——癫泥怪",
+          "tooltip": "选择是否参加FATE “土壤守护者——癫泥怪”"
+        },
+        "do_a_prying_eye": {
+          "label": "FATE: 监视之瞳——岛屿监视者",
+          "tooltip": "选择是否参加FATE “监视之瞳——岛屿监视者”"
+        },
+        "do_fatal_allure": {
+          "label": "FATE: 美丽的咒杀者——执行者",
+          "tooltip": "选择是否参加FATE “美丽的咒杀者——执行者”"
+        },
+        "do_serving_darkness": {
+          "label": "FATE: 凶恶使魔————生命收割者",
+          "tooltip": "选择是否参加FATE “凶恶使魔————生命收割者”"
+        },
+        "do_persistent_pots": {
+          "label": "FATE: 幸福的魔法罐",
+          "tooltip": "选择是否参加FATE “幸福的魔法罐”"
+        },
+        "do_pleading_pots": {
+          "label": "FATE: 瑟瑟发抖的魔法罐",
+          "tooltip": "选择是否参加FATE “瑟瑟发抖的魔法罐”"
+        }
+      },
+      "panel": {
+        "title": "非法模式",
+        "activity": {
+          "label": "运行",
+          "none": "无"
+        },
+        "activity_state": {
+          "label": "运行状态",
+          "none": "等待运行"
+        },
+        "lens": {
+          "title": null
+        }
+      },
+      "messages": {
+        "off": "[BOCCHI] 非法模式关闭",
+        "on": "[BOCCHI] 非法模式启动"
+      }
+    }
+  }
+}
