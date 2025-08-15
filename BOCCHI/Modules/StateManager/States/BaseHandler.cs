@@ -1,8 +1,7 @@
-﻿using BOCCHI.Data;
-using Dalamud.Game.ClientState.Conditions;
+﻿using Dalamud.Game.ClientState.Conditions;
 using ECommons.DalamudServices;
-using ECommons.GameHelpers;
 using FFXIVClientStructs.FFXIV.Client.Game.Fate;
+using FFXIVClientStructs.FFXIV.Client.Game.InstanceContent;
 using Ocelot.States;
 
 namespace BOCCHI.Modules.StateManager.States;
@@ -19,8 +18,9 @@ public abstract class BaseHandler(StateManagerModule module) : StateHandler<Stat
         return FateManager.Instance()->CurrentFate is not null;
     }
 
-    protected bool IsInCriticalEncounter()
+    protected unsafe bool IsInCriticalEncounter()
     {
-        return Player.Status.Has(PlayerStatus.HoofingIt);
+        var dec = DynamicEventContainer.GetInstance();
+        return dec != null && dec->CurrentEventId != 0;
     }
 }
